@@ -1,0 +1,13 @@
+.headerContainer {
+    background-color: aqua;
+    text-align: center;
+    top: 0;
+    width: 100vw;
+    margin-top: 0%;
+}
+
+.headerContent {
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px;
+}

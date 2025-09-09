@@ -1,4 +1,8 @@
 .cardContainer {
     background-color: darkslategrey;
     color: whitesmoke;
+    width: 300px;
+    height: 5000px;
+    border-radius: 25px;
+    font-size: 1.2rem;
 }

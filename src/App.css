@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -37,6 +36,19 @@
   padding: 2em;
 }
 
+.cardHolder {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  
+}
+
 .read-the-docs {
   color: #888;
+}
+
+.headerContainer {
+  font-size: x-large;
 }
