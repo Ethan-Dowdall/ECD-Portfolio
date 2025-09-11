@@ -52,3 +52,10 @@
 .headerContainer {
   font-size: x-large;
 }
+
+.formContainer {
+  margin-top: 2rem;
+  background-color: lightpink;
+  width: 50%;
+  justify-content: center;
+}
