@@ -32,23 +32,10 @@ function App() {
     <>
       <Header />
       
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="heroSection">
+        <p></p>
       </div>
 
-      <h1>My Portfolio (Maybe)</h1>
-
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-      
       <div className="cardHolder">
         <Card {...cards.card1}/>
         <Card {...cards.card2}/>

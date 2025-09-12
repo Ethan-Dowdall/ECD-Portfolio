@@ -1,13 +1,66 @@
-.headerContainer {
-    background-color: aqua;
-    text-align: center;
-    top: 0;
-    width: 100vw;
-    margin-top: 0%;
+@font-face {
+    font-family: "Iki Mono";
+    src: url("./assets/IkiMono-Bold.otf") format("truetype");
+    font-weight: normal;
 }
 
-.headerContent {
-    font-size: xx-large;
-    font-weight: bold;
-    padding: 10px;
+.headerContainer {
+    font-family: "Iki Mono", "monospace";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0;
+    padding-top: 0;
+    margin-top: 0;
+    height: 100px;
 }
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+
+.headerLeft a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    font-weight: bolder;
+    font-size: x-large;
+    color: inherit;
+}
+
+.headerCenter {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+}
+
+.headerCenter a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.headerRight {
+    flex: 1;
+}
+
+.headerName {
+    display: flex;
+    float: left;
+}
+
+.logo {
+    height: 60px;
+    margin: 0%;
+}
+

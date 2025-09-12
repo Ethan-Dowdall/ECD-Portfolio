@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger, GSAPSplitText, useGSAP);
 
 const SplitText = ({
+  img,
   text,
   className = '',
   delay = 100,
