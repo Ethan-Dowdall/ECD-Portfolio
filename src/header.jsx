@@ -12,7 +12,7 @@ function Header() {
                 <a href=''>
                 <img src={SquareIcon} className="logo" />
                 <SplitText
-                    text="ECD"
+                    text="ECD-Portfolio"
                     className="text-2xl font-semibold text-center"
                     delay={100}
                     duration={0.6}
