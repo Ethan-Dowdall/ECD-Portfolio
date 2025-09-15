@@ -9,7 +9,7 @@ function Header() {
     return (
         <div className="headerContainer">
             <div className="headerLeft">
-                <a href='/ECD-Portfolio'>
+                <a href=''>
                 <img src={SquareIcon} className="logo" />
                 <SplitText
                     text="ECD"
@@ -56,7 +56,7 @@ function Header() {
                     textAlign="center"
                     onLetterAnimationComplete={handleAnimationComplete}
                 /></a>
-                <a href='ECD-Portfolio/contact-page.html'><SplitText
+                <a href='contact-page.html'><SplitText
                     text="contact"
                     className="text-2xl font-semibold text-center"
                     delay={100}
